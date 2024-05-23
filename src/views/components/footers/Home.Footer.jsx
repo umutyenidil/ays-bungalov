@@ -48,13 +48,6 @@ const HomeFooter = () => {
                         </li>
                         <li>
                             <a className='flex flex-row gap-2'
-                               href='https://wa.me/+903123950787'>
-                                <IconBrandWhatsapp/>
-                                +90 312 395 07 87
-                            </a>
-                        </li>
-                        <li>
-                            <a className='flex flex-row gap-2'
                                href='https://wa.me/+905377078347'>
                                 <IconBrandWhatsapp/>
                                 +90 537 707 83 47
