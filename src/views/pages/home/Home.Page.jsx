@@ -29,7 +29,7 @@ const HomePage = () => {
             </div>
 
             <div className='px-10 mb-16'>
-                <h3 className='mb-8 text-4xl font-bold text-slate-800'>
+                <h3 className='hidden sm:block mb-8 text-4xl font-bold text-slate-800'>
                     İletişim
                 </h3>
                 <ContactForm/>

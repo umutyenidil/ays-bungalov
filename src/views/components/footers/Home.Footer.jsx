@@ -1,4 +1,12 @@
-import {IconCopyright, IconMail, IconMapPin, IconPhone} from "@tabler/icons-react";
+import {
+    IconCopyright,
+    IconMail,
+    IconMapPin,
+    IconPhone,
+    IconBrandWhatsapp,
+    IconBrandInstagram,
+    IconBrandYoutube,
+} from "@tabler/icons-react";
 
 const HomeFooter = () => {
     return (
@@ -16,35 +24,67 @@ const HomeFooter = () => {
                 </div>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
-                    <div className='flex flex-col gap-6'>
-                        <div className='flex flex-row gap-2'>
-                            <IconMail/>
-                            <p>
+                    <ul className='flex flex-col gap-6'>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href="mailto:ays.bungalov@gmail.com">
+                                <IconMail/>
                                 ays.bungalov@gmail.com
-                            </p>
-                        </div>
-                        <div className='flex flex-row gap-2'>
-                            <IconPhone/>
-                            <p>
+                            </a>
+                        </li>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href='tel:+903123950787'>
+                                <IconPhone/>
                                 +90 312 395 07 87
-                            </p>
-                        </div>
-                        <div className='flex flex-row gap-2'>
-                            <IconPhone/>
-                            <p>
+                            </a>
+                        </li>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href='tel:+905377078347'>
+                                <IconPhone/>
                                 +90 537 707 83 47
-                            </p>
-                        </div>
-                    </div>
-                    <div className='flex flex-col gap-6'>
-                        <div className='flex flex-row gap-2'>
-                            <IconMapPin/>
-                            <p>
+                            </a>
+                        </li>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href='https://wa.me/+903123950787'>
+                                <IconBrandWhatsapp/>
+                                +90 312 395 07 87
+                            </a>
+                        </li>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href='https://wa.me/+905377078347'>
+                                <IconBrandWhatsapp/>
+                                +90 537 707 83 47
+                            </a>
+                        </li>
+                    </ul>
+                    <ul className='flex flex-col gap-6'>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href='https://www.instagram.com/aysbungalov?igsh=MWt4YXBhcWd6OTd3cA%3D%3D&utm_source=qr'>
+                                <IconBrandInstagram/>
+                                aysbungalov
+                            </a>
+                        </li>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href='https://www.youtube.com/@AysBungalov'>
+                                <IconBrandYoutube/>
+                                AysBungalov
+                            </a>
+                        </li>
+                        <li>
+                            <a className='flex flex-row gap-2'
+                               href='http://maps.google.com?q=39.9922153,32.7330716'>
+                                <IconMapPin/>
                                 Organize Sanayi Bölgesi
                                 İvedik / Ankara
-                            </p>
-                        </div>
-                    </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 

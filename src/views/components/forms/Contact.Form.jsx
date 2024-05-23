@@ -1,10 +1,11 @@
 import {InputText} from "primereact/inputtext";
 import {InputTextarea} from "primereact/inputtextarea";
 import {IconMail} from "@tabler/icons-react";
+import {Button} from "primereact/button";
 
 const ContactForm = () => {
     return (
-        <div className='w-full flex flex-col-reverse sm:flex-row'>
+        <div className='w-full flex flex-col-reverse sm:flex-row gap-8'>
             <div className="w-full sm:w-1/2 flex flex-col gap-2">
                 <div className='grid grid-col-2 gap-2'>
                     <InputText className='p-inputtext-sm'
@@ -20,6 +21,7 @@ const ContactForm = () => {
                                value={'Aciklama'}
                                onChange={(e) => setValue(e.target.value)}
                                rows={5}/>
+                <Button label='Gönder'/>
             </div>
             <div className='w-full sm:w-1/2 p-4 flex justify-center items-center'>
                 <div className='flex flex-col items-center gap-y-2 text-center'>
