@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const HomeInformationListItem = ({content, className}) => {
     return (
         <li className={`${className} flex flex-row items-center gap-2`}>
-            <IconCircleCheck/>
+            <IconCircleCheck width={24} height={24}/>
             {content}
         </li>
     );
