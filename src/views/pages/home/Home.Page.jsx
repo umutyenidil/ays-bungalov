@@ -24,7 +24,9 @@ const HomePage = () => {
                 <h3 className='mb-8 text-4xl font-bold text-slate-800'>
                     Galerimiz
                 </h3>
-                <HomeCarousel/>
+                <div className='hidden sm:block'>
+                    <HomeCarousel/>
+                </div>
                 <HomeGallery/>
             </div>
 
