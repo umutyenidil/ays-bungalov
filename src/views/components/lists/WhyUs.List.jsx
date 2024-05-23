@@ -7,15 +7,15 @@ const WhyUsList = ({className}) => {
             <h3 className='mb-8 font-bold text-4xl'>
                 Neden Bizi Seçmelisiniz?
             </h3>
-            <ul className='flex flex-col gap-8'>
-                <HomeInformationListItem className='text-black'
-                                         content='Müşteri Memnuniyeti: Her aşamada yanınızda olan destek ekibimiz.'/>
-                <HomeInformationListItem className='text-black'
-                                         content='Özelleştirme İmkanı: Kendi tarzınıza uygun bungalovu yaratın.'/>
-                <HomeInformationListItem className='text-black'
-                                         content='Doğanın içinde, huzur ve konforla dolu bir yaşam için, bungalov evlerimizi keşfetmeye davetlisiniz.'/>
-                <HomeInformationListItem className='text-black'
-                                         content='Hayalinizdeki evi birlikte inşa edelim!'/>
+            <ul className='flex flex-col gap-8 text-black'>
+                <HomeInformationListItem
+                    content='Müşteri Memnuniyeti: Her aşamada yanınızda olan destek ekibimiz.'/>
+                <HomeInformationListItem
+                    content='Özelleştirme İmkanı: Kendi tarzınıza uygun bungalovu yaratın.'/>
+                <HomeInformationListItem
+                    content='Doğanın içinde, huzur ve konforla dolu bir yaşam için, bungalov evlerimizi keşfetmeye davetlisiniz.'/>
+                <HomeInformationListItem
+                    content='Hayalinizdeki evi birlikte inşa edelim!'/>
             </ul>
         </div>
     );

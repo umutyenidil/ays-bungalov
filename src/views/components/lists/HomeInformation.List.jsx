@@ -18,7 +18,7 @@ const HomeInformationList = ({className}) => {
                             Bungalov evlerimiz, geniş verandaları, ferah iç mekanları ve özenle planlanmış detaylarıyla, size her anın tadını çıkarma fırsatı sunuyor. Şehir stresinden uzaklaşmak ve sevdiklerinizle kaliteli zaman geçirmek için mükemmel bir ortam.
                         </span>
                 </div>
-                <ul className='flex flex-col gap-8'>
+                <ul className='flex flex-col gap-8 text-white'>
                     <HomeInformationListItem content='Ormanın ortasında ya da deniz kenarında, doğanın kalbinde bir yaşam.'/>
                     <HomeInformationListItem content='Ahşap ve taşın sıcak dokunuşuyla, modern yaşamın tüm konforu bir arada.'/>
                     <HomeInformationListItem content='Yüksek yalıtım standartlarıyla, enerji tasarrufu sağlar.'/>
