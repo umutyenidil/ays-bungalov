@@ -25,7 +25,7 @@ const HomePage = () => {
             <div id='GALLERY'
                  className='px-10 mb-16 flex flex-col gap-y-4'>
                 <h3 className='mb-8 text-4xl font-bold text-slate-800'>
-                    Galerimiz
+                    Galeri
                 </h3>
                 <div className='hidden sm:block'>
                     <HomeCarousel/>
