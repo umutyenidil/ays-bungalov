@@ -1,5 +1,5 @@
 import './index.css'
-import HomePage from "./views/pages/Home.Page.jsx";
+import HomePage from "./views/pages/home/Home.Page.jsx";
 import {PrimeReactProvider} from "primereact/api";
 import 'primereact/resources/themes/tailwind-light/theme.css';
 import 'primeicons/primeicons.css';
