@@ -16,11 +16,14 @@ const HomePage = () => {
         <div>
             <HomeNavigationBar/>
 
-            <HomeInformationList className='mb-16'/>
+            <div id='HOME'>
+                <HomeInformationList className='mb-16'/>
+            </div>
 
             <WhyUsList className='mb-16 px-10'/>
 
-            <div className='px-10 mb-16 flex flex-col gap-y-4'>
+            <div id='GALLERY'
+                 className='px-10 mb-16 flex flex-col gap-y-4'>
                 <h3 className='mb-8 text-4xl font-bold text-slate-800'>
                     Galerimiz
                 </h3>
@@ -30,7 +33,8 @@ const HomePage = () => {
                 <HomeGallery/>
             </div>
 
-            <div className='px-10 mb-16'>
+            <div id='CONTACT'
+                 className='px-10 mb-16'>
                 <h3 className='hidden sm:block mb-8 text-4xl font-bold text-slate-800'>
                     İletişim
                 </h3>
